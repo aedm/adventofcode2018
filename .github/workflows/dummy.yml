@@ -1,0 +1,16 @@
+name: Dummy
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  foo:
+    name: Foo
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Sleep
+        run: |
+          echo whatever
+          sleep 30
+          echo whatever
