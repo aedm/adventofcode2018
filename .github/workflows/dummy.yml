@@ -11,4 +11,6 @@ jobs:
     steps:
       - name: Sleep
         run: |
-          sleep 10
+          echo whatever
+          sleep 30
+          echo whatever
